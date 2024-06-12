@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            display: inline-block;
+            display: flex;
+        }
+        #left{
+            width: fit-content;
+            margin-top: 30px;
+            margin-left: 370px;
+        }
+        #right{
+            border: 2px rgba(0, 0, 0, 0.1) solid;
+            height: 450px;
+            width: 360px;
+            margin-top: 30px;
+            margin-left: 30px;
+            padding-left: 30px;
+            #insta{
+                margin-left: 40px;
+                margin-top: 40px;
+            }
+            input{
+                margin-left: 30px;
+                margin-top: 30px;
+                width: 250px;
+                height: 35px;
+                padding-left: 10px;
+            }
+            button{
+                margin-left: 30px;
+                margin-top: 20px;
+                width: 265px;
+                height: 35px;
+                border-radius: 10px;
+                background-color: rgb(83, 189, 255);
+                color: white;
+            }
+            #or{
+                margin-left: -10px;
+                margin-top: 20px;
+            }
+        }
+        #fb{
+            i{
+                margin-top: 30px;
+            }
+            p{
+                margin-left: 100px;
+            }
+        }
+        #account{
+            position: absolute;
+            left: 800px;
+            top: 500px;
+            height: 50px;
+            width: 392px;
+            border: 2px rgba(0, 0, 0, 0.1) solid;
+            padding-top: 30px;
+            text-align: center;
+            a{
+                color: rgb(83, 189, 255);
+                font-size: larger;
+            }
+            
+        }
+        #store{
+            position: absolute;
+            left: 850px;
+            top: 600px;
+            text-align: center;
+        }
+        #bottom{
+            position: absolute;
+            top: 700px;
+            p{
+                display: inline;
+                margin-left: 10px;
+            }
+        }
+        #below{
+            position: absolute;
+            top: 750px;
+            left: 600px;
+            padding-bottom: 30px;
+        }
+        #box{
+            width: 70px;
+            border: 0px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="left">
+        <img src="/Web Technology/Images/instagif.gif" alt="">
+    </div>
+    <div id="right">
+        <img id="insta" src="/Web Technology/Images/Insta name.png" alt="">
+        <input type="text" placeholder="Phone number, username, or email">
+        <input style="margin-top: 8px;" type="password" placeholder="Password">
+        <br>
+        <a href=""><button>Log in</button></a>
+        <br>
+        <img id="or" src="/Web Technology/Images/or.png" alt="">
+        <br>
+            <a href="">
+            <i class="fa-brands fa-square-facebook" style="color: #2a56a2; margin-top: 30px;margin-left: 70px;"></i>
+            <p style="margin-left: 100px; margin-top: -20px; color: #2a56a2;">Log in with Facebook</p></a>
+        <a href=""><p style="margin-top: 20px;margin-left: 100px;">Forgot password?</p></a>
+    </div>
+    <div id="account">
+        <a href=""><p>Create new account</p></a>
+    </div>
+    <div id="store">
+        <p id="get">Get the app</p>
+        <a href=""><img id="google" src="/Web Technology/Images/playstore.png" alt=""></a>
+        <a href=""><img id="microsoft" src="/Web Technology/Images/microsoft.png" alt=""></a>
+    </div>
+    <div id="bottom">
+        <a href=""><p style="margin-left: 250px;">Meta</p></a>
+        <a href=""><p>About</p></a>
+        <a href=""><p>Blog</p></a>
+        <a href=""><p>Jobs</p></a>
+        <a href=""><p>Help</p></a>
+        <a href=""><p>API</p></a>
+        <a href=""><p>Privacy</p></a>
+        <a href=""><p>Terms</p></a>
+        <a href=""><p>Locations</p></a>
+        <a href=""><p>Instagram Lite</p></a>
+        <a href=""><p>Threads</p></a>
+        <a href=""><p>Contact Uploading & Non-Users</p></a>
+        <a href=""><p>Meta Verified</p></a>
+    </div>
+    <div id="below">
+        <select name="" id="box">
+            <option value="">English</option>
+            <option value="">中文 </option>
+            <option value="">français</option>
+            <option value="">हिन्दी</option>
+            <option value="">日本語</option>
+            <option value="">한국어</option>
+            <option value="">Русский язык</option>
+            <option value="">español </option>
+            <option value="">தமிழ்</option>
+        </select>
+        <p style="margin-left: 120px; margin-top: -20px;">© 2024 Instagram from Meta</p>
+    </div>
+</body>
+</html>
